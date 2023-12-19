@@ -1,0 +1,61 @@
+.hero-img{
+    width:100%;
+    background: rgba(0, 0, 0, 0.74);
+    height: 60vh;
+    position: relative;
+    
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+background-color: rgba(0, 0, 0, 0);
+}
+.hero-img::before{
+    content: "";
+    background: url(https://img77.uenicdn.com/image/upload/v1571889301/business/lazza-direct/14372077-ac54-4fe4-a0a0-e249449fcc24.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+   
+}
+.hero-img{
+    font-size: 2.2rem;
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (max-width: 640px) {
+    .hero-img h1{
+        font-size: 2rem;
+       margin-top: 475px;
+    }
+    .hero-img{
+       
+        height: 50vh;
+        
+        
+    }
+    .heading{
+        height: 50%;
+    }
+   
+    .hero-img::before{
+        content: "";
+        background: url(https://img77.uenicdn.com/image/upload/v1571889301/business/lazza-direct/14372077-ac54-4fe4-a0a0-e249449fcc24.jpg);
+      width: 100%;
+      height: 400px;
+       background-position: left -60px top;
+        
+    }
+    
+}

@@ -1,0 +1,71 @@
+.swipe{
+    position: absolute;
+    top: 49%;
+    left:39%;
+    
+}
+.swipe img{
+    width: 300px;
+    height: 300px;
+   
+ 
+}
+.whatsapp{
+    position: absolute;
+    top: 83%;
+    left:85%;
+    cursor: pointer;
+}
+.whatsapp img{
+    width: 90px;
+    height: 80px;
+ 
+}
+@media(max-width:1080px){
+    .swipe{
+        position: absolute;
+        top: 51%;
+        left:38%;
+    }
+    .swipe img{
+        width: 250px;
+        height: 250px;
+    }
+    .whatsapp{
+        position: absolute;
+        top: 80%;
+        left:79%;
+    }
+    .whatsapp img{
+        width: 80px;
+        height: 70px;
+     
+    }
+    
+   
+ }
+
+ @media(max-width:750px){
+    .swipe{
+        position: absolute;
+        top: 60%;
+        left:26%;
+    }
+    .swipe img{
+        width: 200px;
+        height: 200px;
+    }
+    .whatsapp{
+        position: absolute;
+        top: 78%;
+        left:75%;
+    }
+    .whatsapp img{
+        width: 70px;
+        height: 60px;
+     
+    }
+   
+    
+ }
+
